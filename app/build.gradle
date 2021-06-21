@@ -15,9 +15,9 @@ android {
     applicationVariants.all { variant ->
         variant.outputs.all {
             if (variant.name == 'release'){
-                outputFileName = "玩安卓.apk"
+                outputFileName = "wanandroid.apk"
             } else {
-                outputFileName = "玩安卓-${variant.name}.apk"
+                outputFileName = "wanandroid-${variant.name}.apk"
             }
         }
     }
