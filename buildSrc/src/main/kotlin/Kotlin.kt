@@ -4,7 +4,7 @@
  * @date   2020/9/15
  */
 object Kotlin {
-    const val kotlinVersion = "1.3.61"
+    const val kotlinVersion = "1.4.10"
     const val jdk8 = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion"
 
     val coroutines = Coroutines
